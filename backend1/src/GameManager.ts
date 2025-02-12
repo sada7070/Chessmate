@@ -44,7 +44,7 @@ export class GameManager {
                 // when a player makes move, we have to find the game they are playing from games[]
                 const game = this.games.find(game => game.player1 === socket || game.player2 === socket);
                 if(game) {
-                    // if the game exist then which that specific user(socket) make move
+                    // if the game exists then that specific user(socket) make move
                     game.makeMove(socket,message.move);
                 }
             }
