@@ -74,8 +74,8 @@ export class Game {
                 payload: { winner }
             });
         
-            this.player1.emit(message);
-            this.player2.emit(message);
+            this.player1.send(message);
+            this.player2.send(message);
             return;
         }
         
