@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import chessBoardImage from '../assets/chessBoard.jpeg';
-import { Button } from '../complonents/Button';
+import { Button } from '../components/Button';
 
 export const Landing = () => {
     const navigate = useNavigate();
