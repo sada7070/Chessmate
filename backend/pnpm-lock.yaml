@@ -17,6 +17,9 @@ importers:
       chess.js:
         specifier: ^1.0.0
         version: 1.0.0
+      dotenv:
+        specifier: ^16.4.7
+        version: 16.4.7
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -34,6 +37,10 @@ packages:
 
   chess.js@1.0.0:
     resolution: {integrity: sha512-zHaSRub6xkUXxvX9lqgovwRiBvbOmVCTh47rZ0I/HVyCiNc0T5bVLwzshL5X6JtrP+rN/CTmIxdpFr943eP97Q==}
+
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+    engines: {node: '>=12'}
 
   typescript@5.7.3:
     resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
@@ -66,6 +73,8 @@ snapshots:
       '@types/node': 22.13.1
 
   chess.js@1.0.0: {}
+
+  dotenv@16.4.7: {}
 
   typescript@5.7.3: {}
 
