@@ -7,5 +7,6 @@ Features
 * Multiplayer support for playing with friends or random opponents.
 * Cross-device compatibility for a seamless experience.
 * Clean UI for an intuitive chess experience.
+* Used Chess.js library for move validation and game logic.
   
 Feel free to modify this based on any additional features you've added! 🚀
